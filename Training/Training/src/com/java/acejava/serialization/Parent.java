@@ -1,0 +1,15 @@
+package com.java.acejava.serialization;
+
+import java.io.Serializable;
+
+public class Parent implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public Parent() {
+		System.out.println("in parent");
+	}
+}
